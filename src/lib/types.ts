@@ -1,5 +1,3 @@
-export type { UnsignedIntType, Color } from "three"
-
 type Day = {
     count: number
     day: number
@@ -9,4 +7,5 @@ type Day = {
     year: number
 }
 
+export type { UnsignedIntType, Color } from 'three'
 export type Contributions = Array<Day | null>
