@@ -99,6 +99,7 @@
 			"track",
 			"width",
 			"zIndex"
-		]
+		],
+		"workbench.colorTheme": "Abyss"
 	}
 }
