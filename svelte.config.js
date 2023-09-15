@@ -2,16 +2,14 @@
 import { vitePreprocess } from '@sveltejs/kit/vite';
 import adapter from '@sveltejs/adapter-cloudflare';
 
-
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	extensions: ['.svelte'],
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
-	preprocess: [vitePreprocess()],
 
 	vitePlugin: {
-		inspector: true,
+		inspector: true
 	},
 
 	kit: {
@@ -23,9 +21,10 @@ const config = {
 			}
 		})
 	},
-	ssr: {
-		noExternal: ['three']
-	},
+	preprocess: [vitePreprocess()]
+	// ssr: {
+	// 	noExternal: ['three']
+	// }
 };
 
 export default config;
