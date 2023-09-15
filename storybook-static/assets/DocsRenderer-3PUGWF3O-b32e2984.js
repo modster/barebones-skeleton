@@ -1,5 +1,5 @@
-import { _ as h } from './iframe-86621cf7.js';
-import { d as l, R as o, r as a, C as E, A as R, H as x, D as y } from './index-58af4028.js';
+import { _ as h } from './iframe-1d78fb3e.js';
+import { d as l, R as o, r as a, C as E, A as R, H as x, D as y } from './index-d60b8f10.js';
 import '../sb-preview/runtime.js';
 import './_commonjsHelpers-de833af9.js';
 import './index-d37d4223.js';
@@ -57,12 +57,12 @@ var n = new Map(),
 					u = y;
 				return new Promise((m, p) => {
 					h(
-						() => import('./index-d9830747.js'),
+						() => import('./index-61bc9be3.js'),
 						[
-							'./index-d9830747.js',
-							'./index-0251a8bb.js',
-							'./index-58af4028.js',
-							'./iframe-86621cf7.js',
+							'./index-61bc9be3.js',
+							'./index-bf171dc6.js',
+							'./index-d60b8f10.js',
+							'./iframe-1d78fb3e.js',
 							'./_commonjsHelpers-de833af9.js',
 							'./index-d37d4223.js',
 							'./index-e04ae519.js',
@@ -93,4 +93,4 @@ var n = new Map(),
 		}
 	};
 export { T as DocsRenderer, f as defaultComponents };
-//# sourceMappingURL=DocsRenderer-3PUGWF3O-bdf05360.js.map
+//# sourceMappingURL=DocsRenderer-3PUGWF3O-b32e2984.js.map

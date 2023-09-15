@@ -9773,12 +9773,7 @@ Search pattern: "`.concat(e5, '"')
 												for (var i4 = 0, a4 = r6.length; i4 < a4; i4 += 1)
 													this._analyze(
 														{ key: '', value: r6[i4], record: i4, index: i4 },
-														{
-															resultMap: n4,
-															results: o3,
-															tokenSearchers: e5,
-															fullSearcher: t5
-														}
+														{ resultMap: n4, results: o3, tokenSearchers: e5, fullSearcher: t5 }
 													);
 												return o3;
 											}
@@ -9790,18 +9785,8 @@ Search pattern: "`.concat(e5, '"')
 												) {
 													var f3 = this._keyNames[l2];
 													this._analyze(
-														{
-															key: f3,
-															value: this.options.getFn(h4, f3),
-															record: h4,
-															index: s3
-														},
-														{
-															resultMap: n4,
-															results: o3,
-															tokenSearchers: e5,
-															fullSearcher: t5
-														}
+														{ key: f3, value: this.options.getFn(h4, f3), record: h4, index: s3 },
+														{ resultMap: n4, results: o3, tokenSearchers: e5, fullSearcher: t5 }
 													);
 												}
 											return o3;
@@ -14581,9 +14566,7 @@ var { document: document3 } = scope,
 					return typeof position < 'u'
 						? store22.setState(
 								(state) => ({ layout: { ...state.layout, panelPosition: position } }),
-								{
-									persistence: 'permanent'
-								}
+								{ persistence: 'permanent' }
 						  )
 						: store22.setState(
 								(state) => ({
@@ -22249,9 +22232,7 @@ var { SIDEBAR, CANVAS, ADDONS } = ActiveTabs2,
 Panels.displayName = 'Panels';
 var PanelsContainer = newStyled.div(
 		{ position: 'fixed', top: 0, left: 0, width: '100vw' },
-		({ isFullscreen }) => ({
-			height: isFullscreen ? '100vh' : 'calc(100% - 40px)'
-		})
+		({ isFullscreen }) => ({ height: isFullscreen ? '100vh' : 'calc(100% - 40px)' })
 	),
 	Bar2 = newStyled.nav(
 		{

@@ -5,11 +5,17 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	plugins: [sveltekit(), purgeCss()],
 	exclude: [
-		'.notes/**',
-		'.storybook/**',
-		'.vscode/**',
+		'.notes',
+		'.storybook',
+		'.vscode',
 		'./src/stories/**/*',
 		'node_modules',
-		'public'
-	]
+		'public',
+		'.wrangler',
+		'build',
+		'dist'
+	],
+	ssr: {
+		noExternal: ['three']
+	}
 });

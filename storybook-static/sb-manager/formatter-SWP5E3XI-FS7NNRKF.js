@@ -2784,18 +2784,10 @@ var import_memoizerific = __toESM(require_memoizerific(), 1),
 													{ value: 'mdx', since: '1.15.0', description: 'MDX' },
 													{ value: 'vue', since: '1.10.0', description: 'Vue' },
 													{ value: 'yaml', since: '1.14.0', description: 'YAML' },
-													{
-														value: 'glimmer',
-														since: '2.3.0',
-														description: 'Ember / Handlebars'
-													},
+													{ value: 'glimmer', since: '2.3.0', description: 'Ember / Handlebars' },
 													{ value: 'html', since: '1.15.0', description: 'HTML' },
 													{ value: 'angular', since: '1.15.0', description: 'Angular' },
-													{
-														value: 'lwc',
-														since: '1.17.0',
-														description: 'Lightning Web Components'
-													}
+													{ value: 'lwc', since: '1.17.0', description: 'Lightning Web Components' }
 												]
 											},
 											plugins: {
@@ -2897,10 +2889,7 @@ var import_memoizerific = __toESM(require_memoizerific(), 1),
 														description:
 															'Format embedded code if Prettier can automatically identify it.'
 													},
-													{
-														value: 'off',
-														description: 'Never automatically format embedded code.'
-													}
+													{ value: 'off', description: 'Never automatically format embedded code.' }
 												]
 											}
 										};
@@ -6513,18 +6502,12 @@ var import_memoizerific = __toESM(require_memoizerific(), 1),
 														closedByChildren: ['rb', 'rt', 'rtc', 'rp'],
 														closedByParent: !0
 													}),
-													rtc: new u({
-														closedByChildren: ['rb', 'rtc', 'rp'],
-														closedByParent: !0
-													}),
+													rtc: new u({ closedByChildren: ['rb', 'rtc', 'rp'], closedByParent: !0 }),
 													rp: new u({
 														closedByChildren: ['rb', 'rt', 'rtc', 'rp'],
 														closedByParent: !0
 													}),
-													optgroup: new u({
-														closedByChildren: ['optgroup'],
-														closedByParent: !0
-													}),
+													optgroup: new u({ closedByChildren: ['optgroup'], closedByParent: !0 }),
 													option: new u({
 														closedByChildren: ['option', 'optgroup'],
 														closedByParent: !0
@@ -10428,10 +10411,7 @@ var import_memoizerific = __toESM(require_memoizerific(), 1),
 												? Object.assign(Object.assign({}, x), {}, { root: x })
 												: _(
 														x,
-														{
-															type: typeof I == 'string' ? 'stringAlign' : 'numberAlign',
-															n: I
-														},
+														{ type: typeof I == 'string' ? 'stringAlign' : 'numberAlign', n: I },
 														P
 												  )
 											: x;
@@ -10586,11 +10566,7 @@ var import_memoizerific = __toESM(require_memoizerific(), 1),
 														switch (S) {
 															case g:
 																if (!C) {
-																	T.push({
-																		ind: v,
-																		mode: b.break ? h : g,
-																		doc: b.contents
-																	});
+																	T.push({ ind: v, mode: b.break ? h : g, doc: b.contents });
 																	break;
 																}
 															case h: {
@@ -10715,11 +10691,7 @@ var import_memoizerific = __toESM(require_memoizerific(), 1),
 												S = m.slice(0, d).join(''),
 												b = m.slice(d + 1, v).join(''),
 												B = m.slice(v + 1).join('');
-											return {
-												formatted: S + b + B,
-												cursorNodeStart: S.length,
-												cursorNodeText: b
-											};
+											return { formatted: S + b + B, cursorNodeStart: S.length, cursorNodeText: b };
 										}
 										return { formatted: m.join('') };
 									}
@@ -11454,18 +11426,10 @@ var import_memoizerific = __toESM(require_memoizerific(), 1),
 													{ value: 'mdx', since: '1.15.0', description: 'MDX' },
 													{ value: 'vue', since: '1.10.0', description: 'Vue' },
 													{ value: 'yaml', since: '1.14.0', description: 'YAML' },
-													{
-														value: 'glimmer',
-														since: '2.3.0',
-														description: 'Ember / Handlebars'
-													},
+													{ value: 'glimmer', since: '2.3.0', description: 'Ember / Handlebars' },
 													{ value: 'html', since: '1.15.0', description: 'HTML' },
 													{ value: 'angular', since: '1.15.0', description: 'Angular' },
-													{
-														value: 'lwc',
-														since: '1.17.0',
-														description: 'Lightning Web Components'
-													}
+													{ value: 'lwc', since: '1.17.0', description: 'Lightning Web Components' }
 												]
 											},
 											plugins: {
@@ -11567,10 +11531,7 @@ var import_memoizerific = __toESM(require_memoizerific(), 1),
 														description:
 															'Format embedded code if Prettier can automatically identify it.'
 													},
-													{
-														value: 'off',
-														description: 'Never automatically format embedded code.'
-													}
+													{ value: 'off', description: 'Never automatically format embedded code.' }
 												]
 											}
 										};
@@ -13390,12 +13351,7 @@ var import_memoizerific = __toESM(require_memoizerific(), 1),
 										f && w.push(t.AnySchema.create({ name: '_' }));
 										for (let E of g)
 											w.push(
-												p(E, {
-													isCLI: f,
-													optionInfos: g,
-													colorsModule: F,
-													levenshteinDistance: _
-												})
+												p(E, { isCLI: f, optionInfos: g, colorsModule: F, levenshteinDistance: _ })
 											),
 												E.alias &&
 													f &&
@@ -13435,11 +13391,7 @@ var import_memoizerific = __toESM(require_memoizerific(), 1),
 															? Object.assign(
 																	Object.assign({}, P),
 																	{},
-																	{
-																		redirect: {
-																			to: { key: g.name, value: P.redirect }
-																		}
-																	}
+																	{ redirect: { to: { key: g.name, value: P.redirect } } }
 															  )
 															: P
 													));
@@ -13737,11 +13689,7 @@ ${P}`),
 									function l(h) {
 										let g = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {},
 											c = Object.assign({}, h),
-											f = a({
-												plugins: h.plugins,
-												showUnreleased: !0,
-												showDeprecated: !0
-											}).options,
+											f = a({ plugins: h.plugins, showUnreleased: !0, showDeprecated: !0 }).options,
 											F = Object.assign(
 												Object.assign({}, i),
 												Object.fromEntries(
@@ -16005,10 +15953,7 @@ ${P}`),
 															Object.assign(
 																Object.assign({}, o),
 																{},
-																{
-																	printWidth: Number.POSITIVE_INFINITY,
-																	endOfLine: 'lf'
-																}
+																{ printWidth: Number.POSITIVE_INFINITY, endOfLine: 'lf' }
 															)
 														).formatted +
 														'}'
@@ -16831,10 +16776,7 @@ ${P}`),
 									function y(h) {
 										let { shebang: g, text: c, pragmas: f, comments: F } = l(h),
 											_ = s(c),
-											w = n({
-												pragmas: Object.assign({ format: '' }, f),
-												comments: F.trimStart()
-											});
+											w = n({ pragmas: Object.assign({ format: '' }, f), comments: F.trimStart() });
 										return (
 											(g
 												? `${g}
@@ -23330,12 +23272,7 @@ ${P}`),
 											return {
 												type: 'value-atword',
 												value: i.groups.map((y) => y.value).join(''),
-												group: {
-													open: null,
-													close: null,
-													groups: [],
-													type: 'value-paren_group'
-												}
+												group: { open: null, close: null, groups: [], type: 'value-paren_group' }
 											};
 									}
 									n.ignoredProperties = a;
@@ -29744,14 +29681,8 @@ ${u.content}`;
 													value: 'css',
 													description: 'Respect the default value of CSS display property.'
 												},
-												{
-													value: 'strict',
-													description: 'Whitespaces are considered sensitive.'
-												},
-												{
-													value: 'ignore',
-													description: 'Whitespaces are considered insensitive.'
-												}
+												{ value: 'strict', description: 'Whitespaces are considered sensitive.' },
+												{ value: 'ignore', description: 'Whitespaces are considered insensitive.' }
 											]
 										},
 										singleAttributePerLine: t.singleAttributePerLine,

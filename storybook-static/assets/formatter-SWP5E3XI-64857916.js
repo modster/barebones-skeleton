@@ -1,5 +1,5 @@
-import { _ as ea, m as pl, b as ta } from './index-58af4028.js';
-import './iframe-86621cf7.js';
+import { _ as ea, m as pl, b as ta } from './index-d60b8f10.js';
+import './iframe-1d78fb3e.js';
 import '../sb-preview/runtime.js';
 import './_commonjsHelpers-de833af9.js';
 import './index-d37d4223.js';
@@ -2842,18 +2842,10 @@ var cl = ta({
 													{ value: 'mdx', since: '1.15.0', description: 'MDX' },
 													{ value: 'vue', since: '1.10.0', description: 'Vue' },
 													{ value: 'yaml', since: '1.14.0', description: 'YAML' },
-													{
-														value: 'glimmer',
-														since: '2.3.0',
-														description: 'Ember / Handlebars'
-													},
+													{ value: 'glimmer', since: '2.3.0', description: 'Ember / Handlebars' },
 													{ value: 'html', since: '1.15.0', description: 'HTML' },
 													{ value: 'angular', since: '1.15.0', description: 'Angular' },
-													{
-														value: 'lwc',
-														since: '1.17.0',
-														description: 'Lightning Web Components'
-													}
+													{ value: 'lwc', since: '1.17.0', description: 'Lightning Web Components' }
 												]
 											},
 											plugins: {
@@ -2955,10 +2947,7 @@ var cl = ta({
 														description:
 															'Format embedded code if Prettier can automatically identify it.'
 													},
-													{
-														value: 'off',
-														description: 'Never automatically format embedded code.'
-													}
+													{ value: 'off', description: 'Never automatically format embedded code.' }
 												]
 											}
 										};
@@ -6596,10 +6585,7 @@ var cl = ta({
 														closedByChildren: ['rb', 'rt', 'rtc', 'rp'],
 														closedByParent: !0
 													}),
-													optgroup: new ge({
-														closedByChildren: ['optgroup'],
-														closedByParent: !0
-													}),
+													optgroup: new ge({ closedByChildren: ['optgroup'], closedByParent: !0 }),
 													option: new ge({
 														closedByChildren: ['option', 'optgroup'],
 														closedByParent: !0
@@ -6608,9 +6594,7 @@ var cl = ta({
 													listing: new ge({ ignoreFirstLf: !0 }),
 													style: new ge({ contentType: re.TagContentType.RAW_TEXT }),
 													script: new ge({ contentType: re.TagContentType.RAW_TEXT }),
-													title: new ge({
-														contentType: re.TagContentType.ESCAPABLE_RAW_TEXT
-													}),
+													title: new ge({ contentType: re.TagContentType.ESCAPABLE_RAW_TEXT }),
 													textarea: new ge({
 														contentType: re.TagContentType.ESCAPABLE_RAW_TEXT,
 														ignoreFirstLf: !0
@@ -10579,10 +10563,7 @@ var cl = ta({
 												? Object.assign(Object.assign({}, x), {}, { root: x })
 												: w(
 														x,
-														{
-															type: typeof P == 'string' ? 'stringAlign' : 'numberAlign',
-															n: P
-														},
+														{ type: typeof P == 'string' ? 'stringAlign' : 'numberAlign', n: P },
 														_
 												  )
 											: x;
@@ -10737,11 +10718,7 @@ var cl = ta({
 														switch (b) {
 															case g:
 																if (!F) {
-																	T.push({
-																		ind: E,
-																		mode: S.break ? m : g,
-																		doc: S.contents
-																	});
+																	T.push({ ind: E, mode: S.break ? m : g, doc: S.contents });
 																	break;
 																}
 															case m: {
@@ -10866,11 +10843,7 @@ var cl = ta({
 												b = f.slice(0, h).join(''),
 												S = f.slice(h + 1, E).join(''),
 												B = f.slice(E + 1).join('');
-											return {
-												formatted: b + S + B,
-												cursorNodeStart: b.length,
-												cursorNodeText: S
-											};
+											return { formatted: b + S + B, cursorNodeStart: b.length, cursorNodeText: S };
 										}
 										return { formatted: f.join('') };
 									}
@@ -11605,18 +11578,10 @@ var cl = ta({
 													{ value: 'mdx', since: '1.15.0', description: 'MDX' },
 													{ value: 'vue', since: '1.10.0', description: 'Vue' },
 													{ value: 'yaml', since: '1.14.0', description: 'YAML' },
-													{
-														value: 'glimmer',
-														since: '2.3.0',
-														description: 'Ember / Handlebars'
-													},
+													{ value: 'glimmer', since: '2.3.0', description: 'Ember / Handlebars' },
 													{ value: 'html', since: '1.15.0', description: 'HTML' },
 													{ value: 'angular', since: '1.15.0', description: 'Angular' },
-													{
-														value: 'lwc',
-														since: '1.17.0',
-														description: 'Lightning Web Components'
-													}
+													{ value: 'lwc', since: '1.17.0', description: 'Lightning Web Components' }
 												]
 											},
 											plugins: {
@@ -11718,10 +11683,7 @@ var cl = ta({
 														description:
 															'Format embedded code if Prettier can automatically identify it.'
 													},
-													{
-														value: 'off',
-														description: 'Never automatically format embedded code.'
-													}
+													{ value: 'off', description: 'Never automatically format embedded code.' }
 												]
 											}
 										};
@@ -13542,12 +13504,7 @@ var cl = ta({
 										D && k.push(t.AnySchema.create({ name: '_' }));
 										for (let A of g)
 											k.push(
-												c(A, {
-													isCLI: D,
-													optionInfos: g,
-													colorsModule: C,
-													levenshteinDistance: w
-												})
+												c(A, { isCLI: D, optionInfos: g, colorsModule: C, levenshteinDistance: w })
 											),
 												A.alias &&
 													D &&
@@ -13587,11 +13544,7 @@ var cl = ta({
 															? Object.assign(
 																	Object.assign({}, _),
 																	{},
-																	{
-																		redirect: {
-																			to: { key: g.name, value: _.redirect }
-																		}
-																	}
+																	{ redirect: { to: { key: g.name, value: _.redirect } } }
 															  )
 															: _
 													));
@@ -13889,11 +13842,7 @@ ${P}`),
 									function o(m) {
 										let g = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {},
 											p = Object.assign({}, m),
-											D = s({
-												plugins: m.plugins,
-												showUnreleased: !0,
-												showDeprecated: !0
-											}).options,
+											D = s({ plugins: m.plugins, showUnreleased: !0, showDeprecated: !0 }).options,
 											C = Object.assign(
 												Object.assign({}, n),
 												Object.fromEntries(
@@ -16158,10 +16107,7 @@ ${P}`),
 															Object.assign(
 																Object.assign({}, i),
 																{},
-																{
-																	printWidth: Number.POSITIVE_INFINITY,
-																	endOfLine: 'lf'
-																}
+																{ printWidth: Number.POSITIVE_INFINITY, endOfLine: 'lf' }
 															)
 														).formatted +
 														'}'
@@ -16984,10 +16930,7 @@ ${P}`),
 									function y(m) {
 										let { shebang: g, text: p, pragmas: D, comments: C } = o(m),
 											w = a(p),
-											k = e({
-												pragmas: Object.assign({ format: '' }, D),
-												comments: C.trimStart()
-											});
+											k = e({ pragmas: Object.assign({ format: '' }, D), comments: C.trimStart() });
 										return (
 											(g
 												? `${g}
@@ -23537,12 +23480,7 @@ ${P}`),
 											return {
 												type: 'value-atword',
 												value: n.groups.map((y) => y.value).join(''),
-												group: {
-													open: null,
-													close: null,
-													groups: [],
-													type: 'value-paren_group'
-												}
+												group: { open: null, close: null, groups: [], type: 'value-paren_group' }
 											};
 									}
 									e.ignoredProperties = s;
@@ -30003,14 +29941,8 @@ ${r.content}`;
 													value: 'css',
 													description: 'Respect the default value of CSS display property.'
 												},
-												{
-													value: 'strict',
-													description: 'Whitespaces are considered sensitive.'
-												},
-												{
-													value: 'ignore',
-													description: 'Whitespaces are considered insensitive.'
-												}
+												{ value: 'strict', description: 'Whitespaces are considered sensitive.' },
+												{ value: 'ignore', description: 'Whitespaces are considered insensitive.' }
 											]
 										},
 										singleAttributePerLine: t.singleAttributePerLine,
@@ -31152,4 +31084,4 @@ var vl = pl(2)((Jr, Xr) =>
 				.trim()
 );
 export { vl as formatter };
-//# sourceMappingURL=formatter-SWP5E3XI-ea92ac51.js.map
+//# sourceMappingURL=formatter-SWP5E3XI-64857916.js.map

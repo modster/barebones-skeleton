@@ -77,23 +77,23 @@ window.CONFIG_TYPE === 'DEVELOPMENT' && (window.__STORYBOOK_SERVER_CHANNEL__ = u
 const R = {
 	'./src/stories/Configure.mdx': async () =>
 		r(
-			() => import('./Configure-20d79e01.js'),
+			() => import('./Configure-7614075a.js'),
 			[
-				'./Configure-20d79e01.js',
-				'./index-58af4028.js',
+				'./Configure-7614075a.js',
+				'./index-d60b8f10.js',
 				'./_commonjsHelpers-de833af9.js',
 				'./index-d37d4223.js',
 				'./index-e04ae519.js',
 				'./index-356e4a49.js',
-				'./index-0251a8bb.js'
+				'./index-bf171dc6.js'
 			],
 			import.meta.url
 		),
 	'./src/stories/Page.stories.js': async () =>
 		r(
-			() => import('./Page.stories-b126c825.js'),
+			() => import('./Page.stories-33582da8.js'),
 			[
-				'./Page.stories-b126c825.js',
+				'./Page.stories-33582da8.js',
 				'./_commonjsHelpers-de833af9.js',
 				'./index-356e4a49.js',
 				'./index-8bb8d4e8.js',
@@ -152,7 +152,7 @@ const { composeConfigs: w, PreviewWeb: T, ClientApi: L } = __STORYBOOK_MODULE_PR
 				['./preview-87eac49b.js', './index-d37d4223.js'],
 				import.meta.url
 			),
-			r(() => import('./preview-e71aa3f7.js'), [], import.meta.url),
+			r(() => import('./preview-9aa4affc.js'), [], import.meta.url),
 			r(() => import('./preview-bed967c6.js'), [], import.meta.url),
 			r(
 				() => import('./preview-15309724.js'),
@@ -182,4 +182,4 @@ window.__STORYBOOK_CLIENT_API__ =
 	window.__STORYBOOK_CLIENT_API__ || new L({ storyStore: window.__STORYBOOK_PREVIEW__.storyStore });
 window.__STORYBOOK_PREVIEW__.initialize({ importFn: P, getProjectAnnotations: I });
 export { r as _ };
-//# sourceMappingURL=iframe-86621cf7.js.map
+//# sourceMappingURL=iframe-1d78fb3e.js.map

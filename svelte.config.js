@@ -21,10 +21,10 @@ const config = {
 			}
 		})
 	},
-	preprocess: [vitePreprocess()],
-	ssr: {
-		noExternal: ['three']
-	}
+	preprocess: [vitePreprocess()]
+	// ssr: {
+	// 	noExternal: ['three']
+	// }
 };
 
 export default config;

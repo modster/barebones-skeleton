@@ -1,4 +1,7 @@
 <script>
+	/**
+	 * This is the layout component for the entire site.
+	 */
 	import '../app.postcss';
 
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
@@ -15,10 +18,15 @@
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 </script>
 
-<!-- App Shell -->
 <AppShell>
-	<svelte:fragment slot="header">
-		<!-- App Bar -->
+	<!-- 
+        Page 
+        Route 
+        Content 
+    -->
+	<slot />
+
+	<svelte:fragment slot="pageFooter">
 		<AppBar class="gradient-heading">
 			<svelte:fragment slot="lead">
 				<a
@@ -50,10 +58,4 @@
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
-	<!-- 
-        Page 
-        Route 
-        Content 
-    -->
-	<slot />
 </AppShell>

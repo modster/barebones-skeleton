@@ -1,5 +1,5 @@
-import { R as o, G as s } from './index-58af4028.js';
-import './iframe-86621cf7.js';
+import { R as o, G as s } from './index-d60b8f10.js';
+import './iframe-1d78fb3e.js';
 import '../sb-preview/runtime.js';
 import './_commonjsHelpers-de833af9.js';
 import './index-d37d4223.js';
@@ -192,10 +192,7 @@ var a = (r) => ({
 			{ scrollBehavior: 'auto !important' },
 		'[data-overlayscrollbars-content]': { boxSizing: 'inherit' },
 		'[data-overlayscrollbars-grid],\n[data-overlayscrollbars-grid] [data-overlayscrollbars-padding]':
-			{
-				display: 'grid',
-				gridTemplate: '1fr/1fr'
-			},
+			{ display: 'grid', gridTemplate: '1fr/1fr' },
 		'[data-overlayscrollbars-grid] > [data-overlayscrollbars-padding],\n[data-overlayscrollbars-grid] > [data-overlayscrollbars-viewport],\n[data-overlayscrollbars-grid] > [data-overlayscrollbars-padding] > [data-overlayscrollbars-viewport]':
 			{ height: 'auto !important', width: 'auto !important' },
 		'.os-scrollbar': {
@@ -268,9 +265,7 @@ var a = (r) => ({
 		},
 		'.os-scrollbar-auto-hidden': { opacity: 0, visibility: 'hidden' },
 		'.os-scrollbar-unusable,\n.os-scrollbar-unusable *,\n.os-scrollbar-wheel,\n.os-scrollbar-wheel *':
-			{
-				pointerEvents: 'none !important'
-			},
+			{ pointerEvents: 'none !important' },
 		'.os-scrollbar-unusable .os-scrollbar-handle': { opacity: '0 !important' },
 		'.os-scrollbar-horizontal .os-scrollbar-handle': {
 			bottom: '0',
@@ -394,11 +389,7 @@ var a = (r) => ({
 				bottom: 'calc(2px * -1)'
 			},
 		'.os-no-css-vars.os-theme-dark.os-scrollbar-vertical, .os-no-css-vars.os-theme-light.os-scrollbar-vertical':
-			{
-				padding: '2px 2px',
-				bottom: '10px',
-				width: '10px'
-			},
+			{ padding: '2px 2px', bottom: '10px', width: '10px' },
 		'.os-no-css-vars.os-theme-dark.os-scrollbar-vertical .os-scrollbar-handle, .os-no-css-vars.os-theme-light.os-scrollbar-vertical .os-scrollbar-handle':
 			{ minHeight: '33px', maxHeight: 'none' },
 		'.os-no-css-vars.os-theme-dark.os-scrollbar-vertical .os-scrollbar-handle:before, .os-no-css-vars.os-theme-light.os-scrollbar-vertical .os-scrollbar-handle:before':
@@ -435,4 +426,4 @@ var a = (r) => ({
 	e = () => o.createElement(s, { styles: a }),
 	h = e;
 export { h as default, a as getScrollAreaStyles };
-//# sourceMappingURL=GlobalScrollAreaStyles-UY5SB7EJ-05b1063c.js.map
+//# sourceMappingURL=GlobalScrollAreaStyles-UY5SB7EJ-492c5de5.js.map

@@ -15818,9 +15818,7 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
 					: (callbackNode = scheduleCallback(
 							priorityLevel,
 							performConcurrentWorkOnRoot.bind(null, root2),
-							{
-								timeout: expirationTimeToMs(expirationTime) - now()
-							}
+							{ timeout: expirationTimeToMs(expirationTime) - now() }
 					  )),
 					(root2.callbackNode = callbackNode);
 			}

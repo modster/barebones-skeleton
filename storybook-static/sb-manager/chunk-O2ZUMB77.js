@@ -4654,11 +4654,7 @@ var require_immutable = __commonJS({
 										insertHighlightedCode(evt.data);
 									}),
 										worker.postMessage(
-											JSON.stringify({
-												language: env.language,
-												code: env.code,
-												immediateClose: !0
-											})
+											JSON.stringify({ language: env.language, code: env.code, immediateClose: !0 })
 										);
 								} else insertHighlightedCode(_.highlight(env.code, env.grammar, env.language));
 							},
