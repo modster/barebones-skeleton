@@ -1,5 +1,5 @@
 {
-	"folders": [
+ 	"folders": [
 		{
 			"path": "."
 		}
@@ -99,6 +99,7 @@
 			"track",
 			"width",
 			"zIndex"
-		]
+		],
+		"workbench.colorTheme": "Abyss"
 	}
 }
