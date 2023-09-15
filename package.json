@@ -39,7 +39,7 @@
     "Other"
   ],
   "scripts": {
-    "dev": "vite dev",
+    "dev": "vite dev --open",
     "host": "vite dev --open --host",
     "build": "vite build",
     "preview": "wrangler pages dev .svelte-kit/cloudflare",
